@@ -1,0 +1,22 @@
+{
+  "name": "dockas_landing",
+  "version": "1.0.0",
+  "description": "Dockas - Supermercado Online e com Frete grátis",
+  "main": "src/index.pug",
+  "author": "Marco Antônio <ma.souza.junior@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "uikit": "https://github.com/uikit/uikit.git"
+  },
+  "devDependencies": {
+    "common-config": "https://github.com/marco-souza/common-config.git",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-file": "^0.3.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-stylus": "^2.6.0",
+    "gulp-util": "^3.0.8",
+    "webpack": "^2.5.1"
+  }
+}
