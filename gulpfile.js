@@ -85,6 +85,7 @@ gulp.task("vendor", function() {
 gulp.task("watch", [
     "default"
 ], ()=> {
+    gulp.watch(["./config/*"], ["config"]);
     gulp.watch(["./src/assets/*"], ["assets"]);
     gulp.watch(["./src/assets/images/*"], ["assets:images"]);
     gulp.watch(["./src/**/*.pug"], ["pug"]);

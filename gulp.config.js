@@ -14,6 +14,7 @@ module.exports = {
             // "./darch/assets/**/*"
         ],
         images: [
+            "./src/assets/images/**/*",
             // "./src/assets/images/favicon.png",
             // "./src/assets/images/logo_400x88.png",
         ],
