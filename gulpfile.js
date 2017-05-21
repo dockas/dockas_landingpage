@@ -2,6 +2,7 @@ let gulp                = require("gulp"),
     gutil               = require("gulp-util"),
     file                = require("gulp-file"),
     pug                 = require("gulp-pug"),
+    imagemin            = require('gulp-imagemin');
     stylus              = require("gulp-stylus"),
     config              = require("common-config"),
     gulpConfig          = require("./gulp.config"),
@@ -25,6 +26,7 @@ gulp.task("assets", function() {
 
 gulp.task("assets:images", function() {
     return gulp.src(gulpConfig.src.images)
+    .pipe(imagemin())
     .pipe(gulp.dest(gulpConfig.dest+"/assets/images"));
 });
 
