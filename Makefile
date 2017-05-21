@@ -1,5 +1,3 @@
-PHONY: compile watch
-
 All: compile
 
 compile:
